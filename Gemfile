@@ -46,8 +46,9 @@ group :development do
 end
 
 group :production do
-  gem 'pg', '0.20.0'
+  gem 'pg', '~> 0.21'
 end
+#gem 'pg', '~> 0.21' 
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
